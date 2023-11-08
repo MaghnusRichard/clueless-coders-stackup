@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To DO List</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style3.css" >
+</head>
+<body>
+    <div class="sidebar">
+        <div class="top">
+            <i class="bx bx-menu" id="buttn"></i>
+           
+            <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII="/> -->
+        </div>
+        <!-- add user button here? -->
+        <ul>
+            <li>
+                <a href="#">
+                <span class="nav-item">today</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span class="nav-item">Upcoming</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span class="nav-item">Filters</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                <span class="nav-item">project</span>
+                </a>
+            </li>
+
+
+
+
+    </div>
+    <div class="mainpage">
+        <div class="contaiiner">
+            <h1>main tasks</h1> 
+        </div>
+
+    </div>
+    
+</body>
+<script>
+    let buttn=document.querySelector('#buttn');
+    let sidebar= document.querySelector('.sidebar');
+
+    buttn.onclick = function() {
+        sidebar.classList.toggle('active');
+    };
+
+</script>
+
+</html>
